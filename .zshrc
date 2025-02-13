@@ -23,6 +23,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
 
 # PATH Configuration
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="/opt/nvim-linux-x86_64/bin:$PATH"
 
 # Completion System
 autoload -Uz compinit
